@@ -1,0 +1,32 @@
+{
+  "name": "flipout",
+  "description": "Flip text upside-down",
+  "main": "flip.js",
+  "scripts": {
+    "compile": "babel src/flip.js > flip.js",
+    "test": "tape tests/**/*.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stojanovic/flipout.git"
+  },
+  "keywords": [
+    "flip",
+    "text",
+    "upside",
+    "down"
+  ],
+  "author": "Slobodan Stojanovic <slobodan@cloudhorizon.com> (http://slobodan.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stojanovic/flipout/issues"
+  },
+  "homepage": "https://github.com/stojanovic/flipout#readme",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "faucet": "0.0.1",
+    "semantic-release": "^4.1.0",
+    "tape": "^4.2.0"
+  }
+}
